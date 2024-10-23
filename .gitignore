@@ -1,0 +1,21 @@
+# Git ignore rules 
+# Ignore node_modules and virtual environments
+bly/node_modules/
+network-security-framework/.venv/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore npm debug files
+npm-debug.log*
+
+# Ignore environment files (if you have them)
+.env
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
